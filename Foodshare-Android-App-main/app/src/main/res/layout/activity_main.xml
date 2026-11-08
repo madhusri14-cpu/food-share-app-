@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8F3"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- App Name -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🍃 FoodShare"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#24834A"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Tagline -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Food, Spread Happiness!"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginTop="6dp"/>
+
+        <!-- Welcome Section -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to FoodShare ❤️"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reduce food waste and help people in need."
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Donate Food Button -->
+
+        <Button
+            android:id="@+id/btnDonate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="🍱  Donate Food"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#24834A"
+            android:layout_marginTop="35dp"/>
+
+        <!-- Find Food Button -->
+
+        <Button
+            android:id="@+id/btnFindFood"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="🔍  Find Food"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E89B32"
+            android:layout_marginTop="18dp"/>
+
+        <!-- About Section -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Why FoodShare?"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Share extra food with others\n\n• Reduce food wastage\n\n• Support needy people\n\n• Build a caring community"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="15dp"/>
+
+        <!-- My Profile Button -->
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="My Profile"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#24834A"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"/>
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Together, let's make a difference! 🌍"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#24834A"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
